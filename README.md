@@ -63,24 +63,24 @@
 Архитектура проекта
 ### Проект организован по следующей структуре:
 текст
-app/
-├── handlers/
-│   ├── commands/
-│   │   └── cmd_start.py
-│   ├── handler_anonym_chat.py
-│   ├── handler_events.py
-│   └── handler_open_chats.py
-├── middlewares/
-│   └── chat_middleware.py
-├── keyboards/
-│   └── keyboards.py
-├── data_base/
-│   ├── data_base.db
-│   ├── Models.py
-│   ├── requests.py
-│   └── Engine.py
-├── bot_settings.py
-└── requirements.txt
+app/  
+├── handlers/  
+│   ├── commands/  
+│   │   └── cmd_start.py  
+│   ├── handler_anonym_chat.py  
+│   ├── handler_events.py  
+│   └── handler_open_chats.py  
+├── middlewares/  
+│   └── chat_middleware.py  
+├── keyboards/  
+│   └── keyboards.py  
+├── data_base/  
+│   ├── data_base.db  
+│   ├── Models.py  
+│   ├── requests.py  
+│   └── Engine.py  
+├── bot_settings.py  
+└── requirements.txt  
 
 ### Используемые технологии
 Python: Основной язык программирования, на котором реализован проект.
