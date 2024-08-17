@@ -47,7 +47,7 @@
 ### 5. Завершение диалога
 Пользователи могут завершить диалог в любой момент.
 Обработчик: stop_dialog
-#### - Описание:
+#### -Описание:
 При нажатии кнопки "Стоп ❌" срабатывает обработчик, который завершает диалог.
 Диалог автоматически удаляется из базы данных, а пользователи получают уведомление о завершении:
 текст
@@ -63,18 +63,18 @@
 Архитектура проекта
 ## Проект организован по следующей структуре:
 
-app/  
-├── handlers/  
-│   ├── commands/  
+app  
+├── handlers  
+│   ├── commands  
 │   │   └── cmd_start.py  
 │   ├── handler_anonym_chat.py  
 │   ├── handler_events.py  
 │   └── handler_open_chats.py  
-├── middlewares/  
+├── middlewares  
 │   └── chat_middleware.py  
-├── keyboards/  
+├── keyboards  
 │   └── keyboards.py  
-├── data_base/  
+├── data_base  
 │   ├── data_base.db  
 │   ├── Models.py  
 │   ├── requests.py  
